@@ -4,22 +4,24 @@ package com.didongbabong.pojo;
 public class Food {
 	int id;
 	String name;
-	int fiber;
-	int carbon;
-	int vitamin_c;
-	int protain;
-	int calories;
-	int fat;
-	int sodium;
-	int cholesterol;
-	int potassium;
-	int copper;
-	int zinc;
-	int vitamin_b_6;
-	int vitamin_b_12;
-	int sugar;
-	int iron;
-	int calcium;
+	
+	float sugar;
+	float carbon;
+	float vitamin_c;
+	float protain;
+	float calories;
+	float fat;
+	float calcium;
+	float sodium;
+	float iron;
+	float potassium;
+	float copper;
+	float zinc;
+	float vitamin_b_6;
+	float vitamin_b_12;
+	float fiber;
+	float cholesterol;
+	
 	
 	
 	

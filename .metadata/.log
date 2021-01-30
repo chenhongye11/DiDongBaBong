@@ -1005,3 +1005,126 @@ java.net.UnknownHostException: jope.ow2.org
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-29 22:26:27.540
 !MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:43:02.205
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.218
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.231
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.240
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.245
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.887
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.894
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.908
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.920
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.925
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:43:03.965
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:43:05.012
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:48:26.571
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:27.595
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:27.606
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:27.616
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:27.620
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:27.688
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:48:28.518
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:48:51.761
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:52.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:52.647
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:52.658
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:52.665
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 01:48:52.727
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 01:48:53.563
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 03:14:38.839
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 03:14:41.083
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:42.347
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:42.359
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:42.368
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:42.374
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:42.388
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 03:14:43.033
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:44.093
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:44.103
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:44.111
+!MESSAGE buffering callback sts4.classpath.zmmYyZuZ didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:44.116
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-30 03:14:44.126
+!MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 03:14:55.015
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-30 03:15:39.869
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details

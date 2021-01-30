@@ -1,0 +1,9 @@
+package com.didongbabong.service;
+
+import com.didongbabong.vo.SysResult;
+
+public interface FoodService {
+
+	SysResult findFood(String foodName);
+
+}

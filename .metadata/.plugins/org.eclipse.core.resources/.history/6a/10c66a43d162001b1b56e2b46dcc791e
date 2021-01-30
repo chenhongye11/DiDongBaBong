@@ -1,0 +1,5 @@
+package com.didongbabong.mapper;
+
+public interface FoodMapper {
+
+}

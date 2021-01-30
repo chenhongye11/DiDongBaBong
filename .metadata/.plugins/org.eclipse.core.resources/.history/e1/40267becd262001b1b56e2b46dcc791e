@@ -1,0 +1,31 @@
+package com.didongbabong.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.didongbabong.service.FoodService;
+import com.didongbabong.vo.SysResult;
+
+@Controller
+public class FoodController {
+	
+	
+	@Autowired
+	FoodService foodService;
+	
+	private ObjectMapper objectMapper = new ObjectMapper();
+	
+	@RequestMapping("/food/{foodName}")
+	public String findFood(@PathVariable String foodName) {
+		
+		
+		return foodService.findFood(foodName);
+		
+		
+		
+	}
+	
+
+}

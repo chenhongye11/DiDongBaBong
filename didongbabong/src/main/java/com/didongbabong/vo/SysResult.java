@@ -1,18 +1,61 @@
 package com.didongbabong.vo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+
+
+//need: there are some case that only need to return one of the parameter
+@Data
+@Accessors(chain=true)
+@AllArgsConstructor
+@NoArgsConstructor
 public class SysResult {
 	
-	private int status;
-	private String data;
+	private Integer status;
 	
-	void fail() throws Exception {;
-	throw new Exception();
+	private String msg; //the msg from backend
+	
+	private Object data;//返台返回的任意数据
+	
+	
+	
+	
+	public static SysResult ok() {
+		return new SysResult (200, null, null);
+		
 	}
 	
-	void Sucess(String data) {
+	public static SysResult ok(Object data) {
+		return new SysResult(200,null,data);
+	}
+	
+	
+	public SysResult(Integer status, String msg, Object data) {
+		super();
+		this.status = status;
+		this.msg = msg;
 		this.data = data;
 	}
+
+	public static SysResult fail() {
+		return new SysResult (201,null,null);
+	}
 	
 	
+	public static SysResult fail(String msg) {
+		return new SysResult(201,msg,null);
+	}
+	
+	
+
+	
+	
+	
+	
+	//说明：
+	//由于项目是前后台统一调用，封装一个vo对象
 
 }

@@ -1,0 +1,19 @@
+package com.didongbabong.service;
+
+import org.springframework.stereotype.Service;
+
+import com.didongbabong.vo.SysResult;
+
+@Service
+public class FoodServiceImpl implements FoodService {
+	
+	@Autowired
+	private FoodMapper foodMapper;
+	@Override
+	public SysResult findFood(String foodName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}
