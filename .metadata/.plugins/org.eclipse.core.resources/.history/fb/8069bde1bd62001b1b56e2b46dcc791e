@@ -4,7 +4,7 @@ package com.didongbabong.pojo;
 public class Food {
 	int id;
 	String name;
-	int fiber;
+	String fiber;
 	int carbon;
 	int vitamin_c;
 	int protain;
@@ -13,13 +13,7 @@ public class Food {
 	int sodium;
 	int cholesterol;
 	int potassium;
-	int copper;
-	int zinc;
-	int vitamin_b_6;
-	int vitamin_b_12;
-	int sugar;
-	int iron;
-	int calcium;
+	
 	
 	
 	
