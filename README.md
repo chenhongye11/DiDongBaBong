@@ -14,10 +14,12 @@ You can find [Maven](https://maven.apache.org/) here.
 * Then you are all set to go! :tada:
 
 
-# Application.yml
+## Application.yml
 It's recommended to take a look at the application.yml. It contain the following information
 * portNumber:
 * Datasource:
 * MapperDirectory:
 
 
+## Static Resources:
+All the static Resources should be placed in the src/main/webapp/public/
