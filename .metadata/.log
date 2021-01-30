@@ -999,3 +999,6 @@ java.net.UnknownHostException: jope.ow2.org
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 20:29:26.232
 !MESSAGE executing callback sts4.classpath.zmmYyZuZ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-29 21:36:56.556
+!MESSAGE The POM for com.alibaba:druid:jar:1.1.12 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
