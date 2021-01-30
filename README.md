@@ -23,3 +23,10 @@ It's recommended to take a look at the application.yml. It contain the following
 
 ## Static Resources:
 All the static Resources should be placed in the src/main/webapp/public/
+
+
+## There will be three package for our service:
+* COntroller: Grasp the request.
+* Service: Done the most of the service.
+* Mapper: ORM
+We will have interface and Implementation for our Services for maintenance purpose
