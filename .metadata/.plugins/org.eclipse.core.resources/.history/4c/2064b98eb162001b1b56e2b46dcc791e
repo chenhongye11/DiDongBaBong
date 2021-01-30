@@ -1,0 +1,5 @@
+package com.didongbabong.service;
+
+public class FoodServiceImpl extends FoodService {
+
+}
