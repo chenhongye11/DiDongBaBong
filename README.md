@@ -17,6 +17,9 @@ You can find [Maven](https://maven.apache.org/) here.
 * If you can see the welcoming page, It means your environment have being successfulling setup!
 * Then you are all set to go! :tada:
 
+## MySql
+MySql will be used in this project. 
+[MySql](https://www.mysql.com/)
 
 ## Application.yml
 It's recommended to take a look at the application.yml. It contain the following information
