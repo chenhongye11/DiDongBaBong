@@ -1,8 +1,12 @@
 # DiDongBaBong
 Enjoy Hacking :tornado:
 
-# Project Description:
 
+# Purpurse:
+yet to discuss
+
+# Project Description:
+yet to discuss
 
 # Setting up the environment(This section is for Dev, user can skip it)
 
