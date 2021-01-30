@@ -1,0 +1,18 @@
+<html>
+<h1>Hello Hacker</h1>
+<img src="public/image/McHack.jpg" alt="McHack" width="100" height="100">
+<h2>The following is some basic structure we will use in this project.</h2>
+<p>It contains the following (I will place one of example of each for our backend developer):</p>
+<ul>
+<li>Controller</li>
+<script src="<script src="https://gist.github.com/chenhongye11/82fa04bc508ecc8db96aec101b12baf6.js"></script>"></script>
+<li>Service</li>
+<li>Mapper</li>
+
+<p>ps: For our poor frontend developer, I have configure /public as our directory for frontend resource. Please place your hard work there!!</p>
+<div>*Please read README.md carefully to setup the environment and start developing.</div>
+
+</ul>
+</html>
+
+

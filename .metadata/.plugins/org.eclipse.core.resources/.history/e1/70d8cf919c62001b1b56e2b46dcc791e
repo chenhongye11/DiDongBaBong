@@ -1,0 +1,17 @@
+<html>
+<h1>Hello Hacker</h1>
+<h2>The following is some basic structure we will use in this project.</h2>
+<p>It contains the following:</p>
+<ul>
+<li>Controller</li>
+<li>Service</li>
+<li>Mapper</li>
+
+<div>Please read README.md carefully to setup the environment and start developing.</div>
+
+<div>ps:</div>
+<p>For our poor frontend developer, I have configure /public as our directory for frontend resource. Please place your hard work there!!</p>
+</ul>
+</html>
+
+

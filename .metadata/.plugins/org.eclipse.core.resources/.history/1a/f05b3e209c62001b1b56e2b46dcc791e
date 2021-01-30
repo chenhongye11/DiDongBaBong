@@ -1,0 +1,12 @@
+<html>
+<h1>Hello Hacker</h1>
+<h2>The following is some basic structure we will use in this project.</h2>
+<p>It contains the following</p>
+<ul>
+<li>Controller</li>
+<li>Service</li>
+<li>Mapper</li>
+</ul>
+</html>
+
+
