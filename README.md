@@ -34,3 +34,7 @@ All the static Resources should be placed in the src/main/webapp/public/
 * Service: Done the most of the service.
 * Mapper: ORM
 We will have interface and Implementation for our Services for maintenance purpose
+
+
+
+# Contritubion Statement
