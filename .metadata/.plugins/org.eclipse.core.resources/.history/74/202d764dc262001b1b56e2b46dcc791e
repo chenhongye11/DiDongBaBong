@@ -13,10 +13,8 @@ public class FoodController {
 	
 	@RequestMapping("/food/{foodName}")
 	public SysResult findFood(@PathVariable String foodName) {
-		
-		//@Autowired
+		@Autowired
 		FoodService foodService;
-		return null;
 		
 		
 		

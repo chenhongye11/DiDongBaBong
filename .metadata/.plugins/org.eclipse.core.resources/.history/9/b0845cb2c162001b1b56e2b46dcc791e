@@ -1,0 +1,16 @@
+package com.didongbabong.vo;
+
+public class SysResult {
+	
+	int status;
+	String data;
+	
+	void fail() {;
+	throw new RunTimeException();
+	}
+	
+	abstract void Sucess
+	
+	
+
+}

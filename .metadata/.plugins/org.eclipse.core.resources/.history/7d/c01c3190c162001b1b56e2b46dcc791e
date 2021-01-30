@@ -1,0 +1,5 @@
+package com.didongbabong.vo;
+
+public class SysResult {
+
+}
