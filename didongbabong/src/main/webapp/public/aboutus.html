@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title>About Page</title>
+  <style>
+  body{
+    margin:0;
+    padding:0;
+    background-color: #F0FFF0;
+  }
+
+  h1{
+    color: #8FBC8F;
+    text-align: center;
+    margin-top: 50px;
+    vertical-align: top;
+    font-family: copperplate;
+    font-size:50px;
+  }
+
+  h2{
+    color:#8FBC8F;
+    text-align: center;
+    font-weight: bold;
+    font-family:Garamond;
+    font-size:30px;
+  }
+
+  .par1,.par2{
+    color:#8FBC8F;
+    text-align: center;
+    font-family:Garamond;
+    font-size:20px;
+  }
+
+  #goback{
+    background-color: #8FBC8F; /* Green */
+    border: none;
+    color: #F5FFFA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 630px;
+    margin-top:100px;
+    float:left;
+  }
+
+  </style>
+</head>
+
+<body>
+  <h1>About DingDongBaBong</h1>
+
+  
+<div class="sect1">
+  <h2>What it does</h2>
+   <div class="par1">
+      In a single line: it helps you get healthy!<br><br>
+
+      What you eat isn't simply food, but many different forms of nutrients - a lack of which leads to malnutrition, as we all know; but excess intake is equally a disaster. This webpage helps you retrieve at your fingertips the nutrient composition of almost everything you will use in making a meal. It also allows you to compare between different food side by side.<br>
+   </div>
+</div> 
+
+<div class="sect2">
+  <h2>How to use it</h2>
+   <div class="par2">
+      Type some ingredient to search, and click the button. There you go! A detailed nutrition breakdown is right in front of you.<br><br>
+
+      If you want to compare between two or more ingredients, just type and search, and type and search successively.<br><br>
+
+      It can happen that you are preparing an exquisite meal, where one of the ingredients can't be found here at all. If you'd like to, we deeply appreciate that you add the nutrition information of it to our database using the "Insert Food" button. Thank you!<br><br>
+   </div>
+</div> 
+
+<div class="return">
+  <div class="search">
+     <button id="goback" onclick="goBack()">Go Back</button>
+     <script>
+     function goBack() {
+       window.history.back();
+     }
+     </script>
+    </button>
+  </div>
+</div> 
+
+  
+</body>
+</html>
+
+<!-- for script back end will send you a food json in the format like: 
+[{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...},{"id","name":..., "sugar": .., "carbon":..., "iron":...,...}]
+{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...}
+Please Identify 
+
+
+
+

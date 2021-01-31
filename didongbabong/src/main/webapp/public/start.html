@@ -1,10 +1,68 @@
 <!DOCTYPE html>
 <html>
+<title>Home Page</title>
 <head>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 body{
+/* background image
+  Background-image:url("basket.jpg");
+  background-repeat: no-repeat;
+  background-size: 1700px 850px;
+  */
+  margin:0;
+  padding:0;
+  background-color: #F0FFF0;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+.search{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:#8FBC8F;
+  height:40px;
+  border-radius: 40px;
+  padding:10px;
+}
+
+.search:hover > .searchTerm{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchButton{
+  color:#6B8E23;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  background: #F0FFF0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.searchTerm{
+  background:none;
+  border:none;
+  outline:none;
+  float:left;
+  padding:0;
+  color:white;
+  font-size:16px;
+  transition:0.4s;
+  line-height:40px;
+  width: 0px;
+}
+
+::placeholder{
+  color:#F5FFFA;
+  font-size:13;
+}
+/*body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
@@ -40,7 +98,7 @@ body{
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
-}
+}*/
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
@@ -56,6 +114,36 @@ body{
 	top: 15%;`
 	
 	transform: translate(-50%, -50%);
+}
+
+img{
+  max-width: 100px;
+  max-length:100px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 215px;
+}
+
+/* unvisited link */
+a:link {
+  color: #8FBC8F;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+li{
+  float:left;
+  margin-right: 3%;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 
@@ -85,6 +173,9 @@ function myFunction() {
   	+"<th>vitamin_b_12</th> <th>fiber</th> <th>cholesterol</th></tr>"
 	var input = $(".searchTerm").val();
 	$.get( "find/"+input, function( data ) {
+		if (data==null){
+			alert("Doesn't find what you are looking for");
+		}
 		data = JSON.parse(data);
 		var tableB = tableBody(data);
 		
@@ -99,11 +190,16 @@ function myFunction() {
 		});
 }
 </script>
+<img src="logo.png" alt="logo">
+<ul>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="insert.html">Insert Food</a></li>
+</ul>
 <div class="wrap">
    <div class="search">
       <input type="text" class="searchTerm" placeholder="What are you looking for?">
       <button type="submit" class="searchButton" onclick="myFunction()">
-        <i class="fa fa-search"></i>
+      <i class="fa fa-search"></i>
      </button>
    </div>
 </div>
