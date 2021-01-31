@@ -45,8 +45,9 @@ public class FoodController {
 		
 	}
 	
-	@RequestMapping("/insert/{food}")
-	public SysResult insertFood(@PathVariable Food food) {
+	@RequestMapping("/insertFood")
+	public SysResult insertFood(Food food) {
+		System.out.println(food.toString());
 		return null;
 		
 	}
