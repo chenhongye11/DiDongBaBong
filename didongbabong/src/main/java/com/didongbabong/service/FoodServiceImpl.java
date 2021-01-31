@@ -20,7 +20,10 @@ public class FoodServiceImpl implements FoodService {
 	@Override
 	public Food findFood(String foodName) {
 		QueryWrapper queryWrapper = new QueryWrapper();
+		
+		queryWrapper.eq("name",foodName);
 		Food food = foodMapper.selectOne(queryWrapper);
+		
 		return food;
 	}
 	

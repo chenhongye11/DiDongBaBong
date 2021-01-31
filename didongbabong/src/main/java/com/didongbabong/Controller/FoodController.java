@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.didongbabong.pojo.Food;
 import com.didongbabong.service.FoodService;
@@ -21,12 +22,17 @@ public class FoodController {
 	private ObjectMapper objectMapper = new ObjectMapper();
 	
 	@RequestMapping("/find/{foodName}")
-	public String findFood(@PathVariable String foodName) {
-		
+	@ResponseBody
+	public Food findFood(@PathVariable String foodName) {
+		//System.out.println(foodName);
 		
 		Food food = foodService.findFood(foodName);
+		
 		try {
-			return objectMapper.writeValueAsString(food);
+			System.out.println("My food is"+food.toString());
+			String foodInfo = objectMapper.writeValueAsString(food);
+			//System.out.println("The foodInfo is"+foodInfo);
+			return food;
 		} catch (JsonProcessingException e) {
 			
 			e.printStackTrace();
