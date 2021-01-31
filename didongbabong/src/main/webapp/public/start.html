@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" href="./start.css">
+<head>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -50,19 +50,70 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.food_order{
+	width: 30%;
+	position: absolute;
+	top: 15%;`
+	
+	transform: translate(-50%, -50%);
+}
 
 
 </style>
-</head>
 
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function tableBody(json_text){
+	var obj_array = Object.values(json_text);
+    var i;
+    var text = "<tr>";
+    for (i = 0; i < obj_array.length; i++) {
+      text += "<th>";
+      text += obj_array[i];
+      text += "</th>";
+    }
+    text+"</tr>"
+    return text;
+}
+var flag = false;
+function myFunction() {
+	
+  	var a = "<tr><th>Name</th><th>sugar</th><th>carbon</th><th>vitamin_c</th><th>protein</th><th>clories</th><th>fat</th>"
+  	+"<th>calcium</th><th>sodium</th><th>iron</th><th>potassium</th><th>copper</th><th>zinc</th><th>vitamin_b_6</th>"
+  	+"<th>vitamin_b_12</th> <th>fiber</th> <th>cholesterol</th></tr>"
+	var input = $(".searchTerm").val();
+	$.get( "find/"+input, function( data ) {
+		data = JSON.parse(data);
+		var tableB = tableBody(data);
+		
+		console.log(tableB);
+		
+		$(".wrap").css("top", "8%");
+		if (flag==false){
+			$(".food_order").append(a);
+			flag = true;
+		}
+		$(".food_order").append(tableB);
+		});
+}
+</script>
 <div class="wrap">
    <div class="search">
       <input type="text" class="searchTerm" placeholder="What are you looking for?">
-      <button type="submit" class="searchButton">
+      <button type="submit" class="searchButton" onclick="myFunction()">
         <i class="fa fa-search"></i>
      </button>
    </div>
 </div>
+
+<table style ="width:100%" class = "food_order">
+</table>
+
+</body>
+
+
 
 </html>
 

@@ -23,7 +23,7 @@ public class FoodController {
 	
 	@RequestMapping("/find/{foodName}")
 	@ResponseBody
-	public Food findFood(@PathVariable String foodName) {
+	public String findFood(@PathVariable String foodName) {
 		//System.out.println(foodName);
 		
 		Food food = foodService.findFood(foodName);
@@ -32,7 +32,7 @@ public class FoodController {
 			System.out.println("My food is"+food.toString());
 			String foodInfo = objectMapper.writeValueAsString(food);
 			//System.out.println("The foodInfo is"+foodInfo);
-			return food;
+			return foodInfo;
 		} catch (JsonProcessingException e) {
 			
 			e.printStackTrace();
