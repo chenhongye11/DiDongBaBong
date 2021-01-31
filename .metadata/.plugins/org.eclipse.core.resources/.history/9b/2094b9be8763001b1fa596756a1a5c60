@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.food_order{
+	
+	position: absolute;
+	top: 50%;`
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+</style>
+
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function tableBody(json_text){
+	var obj_array = Object.values(json_text);
+    var i;
+    var text = "<tr>";
+    for (i = 0; i < obj_array.length; i++) {
+      text += "<th>";
+      text += obj_array[i];
+      text += "</th>";
+    }
+    text+"</tr>"
+    return text;
+}
+
+function myFunction() {
+  	var a = "<tr><th>Name</th><th>sugar</th><th>carbon</th><th>vitamin_c</th><th>protein</th><th>clories</th><th>fat</th>"
+  	+"<th>calcium</th><th>sodium</th><th>iron</th><th>potassium</th><th>copper</th><th>zinc</th><th>vitamin_b_6</th>"
+  	+"<th>vitamin_b_12</th> <th>fiber</th> <th>cholesterol</th></tr>"
+	    
+	$.get( "find/mm", function( data ) {
+		data = JSON.parse(data);
+		var tableB = tableBody(data);
+		console.log(tableB);
+		
+		
+		$(".food_order").append(a);
+		$(".food_order").append(tableB);
+		});
+}
+</script>
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton" onclick="myFunction()">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+
+<table style ="width:100%" class = "food_order">
+</table>
+
+</body>
+
+
+</html>
+
+
