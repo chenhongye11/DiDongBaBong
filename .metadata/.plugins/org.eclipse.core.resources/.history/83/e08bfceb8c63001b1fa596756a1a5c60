@@ -85,9 +85,6 @@ function myFunction() {
   	+"<th>vitamin_b_12</th> <th>fiber</th> <th>cholesterol</th></tr>"
 	var input = $(".searchTerm").val();
 	$.get( "find/"+input, function( data ) {
-		if (data==null){
-			alert("Doesn't find what you are looking for");
-		}
 		data = JSON.parse(data);
 		var tableB = tableBody(data);
 		
@@ -106,7 +103,7 @@ function myFunction() {
    <div class="search">
       <input type="text" class="searchTerm" placeholder="What are you looking for?">
       <button type="submit" class="searchButton" onclick="myFunction()">
-      <i class="fa fa-search"></i>
+        <i class="fa fa-search"></i>
      </button>
    </div>
 </div>

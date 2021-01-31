@@ -85,9 +85,7 @@ function myFunction() {
   	+"<th>vitamin_b_12</th> <th>fiber</th> <th>cholesterol</th></tr>"
 	var input = $(".searchTerm").val();
 	$.get( "find/"+input, function( data ) {
-		if (data==null){
-			alert("Doesn't find what you are looking for");
-		}
+		
 		data = JSON.parse(data);
 		var tableB = tableBody(data);
 		

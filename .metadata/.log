@@ -1392,3 +1392,51 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-01-30 23:52:27.689
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:03.533
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:03.538
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@714a4ba2[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:03.543
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.881
+!MESSAGE Boot LS startup time from start to initialized: 3332ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.930
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TGipMAxPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.934
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.940
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.944
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.948
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.952
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:06.963
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TGipMAxP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:07.002
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:07.020
+!MESSAGE buffering callback sts4.classpath.TGipMAxP didongbabong false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:07.030
+!MESSAGE executing callback sts4.classpath.TGipMAxP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-31 01:25:07.049
+!MESSAGE executing callback sts4.classpath.TGipMAxP SUCCESS [done]

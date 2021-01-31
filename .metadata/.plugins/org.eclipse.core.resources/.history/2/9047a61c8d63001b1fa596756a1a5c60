@@ -25,9 +25,7 @@ public class FoodController {
 	@ResponseBody
 	public String findFood(@PathVariable String foodName) {
 		//System.out.println(foodName);
-		if (foodName==null) {
-			return null;
-		}
+		
 		Food food = foodService.findFood(foodName);
 		
 		try {
