@@ -5,14 +5,21 @@
   body{
     margin:0;
     padding:0;
+<<<<<<< HEAD
     background-color: #F0FFF0;
-
+=======
+    background-color:#F0FFF0;
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
   }
 
   h1{
     color: #8FBC8F;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 50px;
+=======
+    margin-top: 40px;
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
     vertical-align: top;
     font-family: copperplate;
     font-size:50px;
@@ -23,7 +30,38 @@
     align: center;
     font-family:Garamond;
     margin-left: 380px;
+<<<<<<< HEAD
     margin-bottom:20px;
+    font-size:20px;
+  }
+
+
+  </style>
+  
+<script>
+$("#formoid").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = form.attr('action');
+    
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: form.serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               alert(data); // show response from the php script.
+           }
+         });
+});
+
+ 
+ 
+</script> 
+  
+=======
     padding-right:20px;
     font-size:20px;
   }
@@ -79,12 +117,67 @@
   }
 
   </style>
-
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
 </head>
 
 <body>
   <h1>Insert Food Information</h1>
 
+<<<<<<< HEAD
+<div class="return">
+   <div class="search">
+      <button onclick="goBack()">Go Back</button>
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+     </button>
+   </div>
+</div> 
+
+
+<div class="form">
+  <form id="formoid" action="insertFood" title="" method="post">
+    <label class="labels" for="name">Name of the ingredient:</label>
+    <input type="text" id="name" name="name"><br>
+    <label class="labels" for="sugar">Sugar:</label>
+    <input type="number" id="sugar" name="sugar"><br>
+    <label class="labels" for="carbon">Carbon:</label>
+    <input type="number" id="carbon" name="carbon"><br>
+    <label class="labels" for="vitamin_c">Vitamin C:</label>
+    <input type="number" id="vitamin_c" name="vitamin_c"><br>
+    <label class="labels" for="protein">Protein:</label>
+    <input type="number" id="protein" name="protein"><br>
+    <label class="labels" for="calories">Sugar:</label>
+    <input type="number" id="calories" name="calories"><br>
+    <label class="labels" for="fat">Fat:</label>
+    <input type="number" id="fat" name="fat"><br>
+    <label class="labels" for="calcium">Calcium:</label>
+    <input type="number" id="calcium" name="calcium"><br>
+    <label class="labels" for="sodium">Sodium:</label>
+    <input type="number" id="sodium" name="sodium"><br>
+    <label class="labels" for="iron">Iron:</label>
+    <input type="number" id="iron" name="iron"><br>
+    <label class="labels" for="potassium">Potassium:</label>
+    <input type="number" id="potassium" name="potassium"><br>
+    <label class="labels" for="copper">Copper:</label>
+    <input type="number" id="copper" name="copper"><br>
+    <label class="labels" for="zinc">Zinc:</label>
+    <input type="number" id="zinc" name="zinc"><br>
+    <label class="labels" for="vitamin_b_6">Vitamin B6:</label>
+    <input type="number" id="vitamin_b_6" name="vitamin_b_6"><br>
+    <label class="labels" for="vitamin_b_12">Vitamin B12:</label>
+    <input type="number" id="vitamin_b_12" name="vitamin_b_12"><br>
+    <label class="labels"for="fiber">Fiber:</label>
+    <input type="number" id="fiber" name="fiber"><br>
+    <label class="labels" for="cholesterol">Cholesterol:</label>
+    <input type="number" id="cholesterol" name="cholesterol"><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+=======
 <div class="form">
   <form>
     <label class="labels" for="name">Name:</label>
@@ -135,11 +228,19 @@
    </div>
 </div>
 
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
 
   
 </body>
 </html>
 
+<<<<<<< HEAD
+=======
+<!-- for script back end will send you a food json in the format like: 
+[{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...},{"id","name":..., "sugar": .., "carbon":..., "iron":...,...}]
+{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...}
+Please Identify 
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
 
 
 

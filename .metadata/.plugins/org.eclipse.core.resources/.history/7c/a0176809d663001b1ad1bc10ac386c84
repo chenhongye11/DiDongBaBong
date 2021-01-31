@@ -24,6 +24,36 @@
     font-family:Garamond;
     margin-left: 380px;
     margin-bottom:20px;
+    font-size:20px;
+  }
+
+
+  </style>
+  
+<script>
+$("#formoid").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = form.attr('action');
+    
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: form.serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               alert(data); // show response from the php script.
+           }
+         });
+});
+
+ 
+ 
+</script> 
+  
+=======
     padding-right:20px;
     font-size:20px;
   }
@@ -79,7 +109,7 @@
   }
 
   </style>
-
+>>>>>>> 789764a36245f8993e45713b5fcb0ee51b61d622
 </head>
 
 <body>

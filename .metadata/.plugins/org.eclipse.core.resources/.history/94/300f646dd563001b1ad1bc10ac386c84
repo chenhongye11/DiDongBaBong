@@ -190,10 +190,10 @@ function myFunction() {
 		});
 }
 </script>
-<img src="public/logo.png" alt="logo">
+<img src="logo.png" alt="logo">
 <ul>
   <li><a href="/public/aboutus.html">About Us</a></li>
-  <li><a href="/public/shelley/insert.html">Insert Food</a></li>
+  <li><a href="/public/insert.html">Insert Food</a></li>
 </ul>
 <div class="wrap">
    <div class="search">

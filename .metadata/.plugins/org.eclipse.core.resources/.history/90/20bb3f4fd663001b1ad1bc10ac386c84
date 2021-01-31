@@ -5,14 +5,13 @@
   body{
     margin:0;
     padding:0;
-    background-color: #F0FFF0;
-
+    background-color:#F0FFF0;
   }
 
   h1{
     color: #8FBC8F;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     vertical-align: top;
     font-family: copperplate;
     font-size:50px;
@@ -23,7 +22,6 @@
     align: center;
     font-family:Garamond;
     margin-left: 380px;
-    margin-bottom:20px;
     padding-right:20px;
     font-size:20px;
   }
@@ -79,7 +77,6 @@
   }
 
   </style>
-
 </head>
 
 <body>
@@ -140,6 +137,10 @@
 </body>
 </html>
 
+<!-- for script back end will send you a food json in the format like: 
+[{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...},{"id","name":..., "sugar": .., "carbon":..., "iron":...,...}]
+{"id":.. "name":..., "sugar": .., "carbon":..., "iron":...,...}
+Please Identify 
 
 
 
