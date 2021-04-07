@@ -2,11 +2,11 @@
 Enjoy Hacking :tornado:
 
 
-# Purpurse:
-yet to discuss
+# Purpose:
+To help you keep a healthy diet 
 
 # Project Description:
-yet to discuss
+Type what you'll eat for the next meal, and calculate the different nutritions you can get from it
 
 # Setting up the environment(This section is for Dev, user can skip it)
 
